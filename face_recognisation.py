@@ -17,7 +17,6 @@ img = cv.imread(r'C:\Users\MIHIR\Desktop\open cv\Resourses\train\ben_afflec\5.jp
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 cv.imshow('Person', gray)
 
-# Detect the face in the image
 faces_rect = haar_cascade.detectMultiScale(gray, 1.1, 4)
 
 for (x,y,w,h) in faces_rect:
