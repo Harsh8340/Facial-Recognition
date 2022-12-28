@@ -1,6 +1,7 @@
 import numpy as np
 import cv2 as cv
 import os
+import pandas as pd
 #import face_recognisaton
 
 haar_cascade = cv.CascadeClassifier('haar_face.xml')
